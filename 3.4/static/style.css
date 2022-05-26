@@ -1,0 +1,65 @@
+body{
+    font-size: var(--font-size-button);
+    color: var(--gray);
+    background-color: rgb(52, 88, 143);
+}
+
+
+:root{
+    --font-family-base : 'Impacted' , sans-serif;
+  
+    /*Font sizes*/
+  
+    --font-size-h1: 80px;
+    --font-size-h2: 50px;
+    --font-size-h3: 20px;
+    --font-size-button: 17px;
+    --font-size-document: 17px;
+    --font-size-base: 16px;
+    --font-size-base-mobile: 6px;
+
+  
+    /*Colors*/
+  
+    --blue:#4452fe;
+    --blue-800: #1823AC;
+    --cian:#224ca8;
+    --dark-blue: #112D57;
+    --black: #000;
+    --white: rgb(66, 88, 211);
+    --gray:#d4d11e;
+    --black-800: #181818;
+  
+    --primary-color: var(--blue);
+    --secondary-color: var(--cian);
+    --page-backgruond-color: var(--black-800);
+    --page-text-color: var(--white);
+  
+  
+  
+  /*Border radius*/
+  
+  /*--border-radius-lg: 12px;
+  --border-radius-md: 10px;
+  */
+  
+  }
+
+h1{
+    font-size: var(--font-size-h1);
+    line-height: 1.1;
+    font-weight: 500;
+    font-family: var(--font-family-base);
+    text-align: center;
+}
+
+li{
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: var(--font-family-base);
+    margin: 5%;
+    list-style-type: none;
+    border: #02E4C0 0.2em solid;
+    padding: 2em;
+}
